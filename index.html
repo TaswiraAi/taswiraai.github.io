@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="None">
+  
+  
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Taswira Documentation</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Taswira Documentation";
+    var mkdocs_page_input_path = "index.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="." class="icon icon-home"> Taswira Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href=".">Taswira Documentation</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#creators-account">Creators Account</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#create-stories">Create Stories</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#add-data-sources">Add Data Sources</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#viewers-account">Viewers account</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href=".">Taswira Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Taswira Documentation</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="taswira-documentation">Taswira Documentation</h1>
+<p>Taswira supports two types of accounts; creators and viewers.</p>
+<h2 id="creators-account">Creators Account</h2>
+<p>The account have Administrative privileges for customizing taswira for your company. The Creator page is only displayed to users with the relevant privileges. The creators are invited by the admins of their respective companies to collaborate on creation of stories.
+When invited, a creator receives an email that prompts them to complete creation of an account with the system. This involves creating a strong password which can allow them to access taswira.</p>
+<p>Some of the privileges the creator has are as follows:</p>
+<ol>
+<li>Create stories</li>
+<li>Add data</li>
+<li>access dashboards</li>
+<li>Edit and update dashboards within their departments</li>
+<li>Subscribe to email updates on chosen dashboards</li>
+<li>Message the admin</li>
+</ol>
+<h2 id="create-stories">Create Stories</h2>
+<p>The creators main task within taswira is creating stories out of data which can be consumed by viewers. When creating a story, the creator is requested to select the data source they intend to use, this could either be a JSON file, CSV file, a Database connection or a Custom Dataset from your database</p>
+<p>How to create a story:</p>
+<ol>
+<li>Select the create story item from sidebar</li>
+<li>Select your datasource from the Get Data dropdown menu (Files, Database, Datasets)</li>
+<li>For files, click the button select file to preview your data. Finally click on the create story button on the right to create your story.<ol>
+<li>Click the setting icon at the bottom right corner of the board and select the fields needed for visualization (You can select all or some of the files).</li>
+<li>Click on the zigzag icon below the setting button on the top right of the board.</li>
+<li>Happy Story telling</li>
+</ol>
+</li>
+<li>For database, it will show all available database connections. You can write a query that picks data from a particular table, you can view tables available in a particular database<ol>
+<li>You can create your stories from either the db query or create a dataset from your database query.</li>
+<li>Click on the zigzag</li>
+</ol>
+</li>
+<li>Once the query has picked the required data, you can save it as a data set or create a story direct from the queried data</li>
+</ol>
+<h2 id="add-data-sources">Add Data Sources</h2>
+<p>For a creator to come up with a story or an EDA, they must select the data they want to use hence they have permissions to add data sources they want to work with. Different data sources are supported which include PostgreSQL and mysql databases, files of type json and csv.
+The file size supported is below 50 mbs and creators can query from a database directly.
+Steps involved in connecting database include:</p>
+<ol>
+<li>select the data source on the left side of the board</li>
+<li>Click on databases menu</li>
+<li>Click on add new button at the right of the board</li>
+<li>Fill the pop up form with your database details then add.</li>
+</ol>
+<p>Steps involved in adding a file:</p>
+<ol>
+<li>select data source on the left side of the board</li>
+<li>Click on files</li>
+<li>Click on upload news on the right side of the board</li>
+<li>Choose the file type, enter the name of the file and choose file intended for upload.</li>
+<li>Click on upload button</li>
+</ol>
+<p><strong><em>access dashboards</em></strong></p>
+<ol>
+<li>A creator has permissions to view all dashboards created within their respective companies.</li>
+<li>They can update the dashboard's department</li>
+<li>Publish or unpublished a dashboard</li>
+<li>They can also delete a dashboard.</li>
+<li>There are two menu lists to access dashboards on the board. one is stories on the left side on the menu which has privileges mentioned above.</li>
+<li>Another menu is the dashboard located on the left side of the board menu, which gives creators privilege to edit and update dashboards.</li>
+</ol>
+<p><strong><em>Edit and update dashboards within their departments</em></strong></p>
+<p>Creators have privileges to open dashboards within their departments and do edits and updates on them. This can be accessed through the dashboard button on the left menu of the board. Steps involved in editing a dashboard include:</p>
+<ol>
+<li>Click on the dashboard menu at the left corner of the board's menu</li>
+<li>Here the creator can see a list of dashboards for a particular department they have logged in with.</li>
+<li>Creator has permissions to change the dashboard icon, delete dashboard, un publish or duplicate a dashboard.</li>
+<li>Click on one of the dashboards you need to edit</li>
+<li>Here the creator can change configurations for each chart</li>
+<li>Export the whole story, download a chart as an image, data or print.</li>
+</ol>
+<p><strong><em>Subscribe to email updates on chosen dashboards</em></strong></p>
+<p>The creator can subscribe to be emailed with dashboards at a selected time each day.  The user will receive a dashboard image posted in their email and a pdf attachment at specified times of the day. As a creator, they can subscribe in order to receive email reports.</p>
+<p><strong><em>Message the admin</em></strong></p>
+<p>For any queries with the system or inquiries, the creator can channel communication direct to the super admins for help.</p>
+<h2 id="viewers-account">Viewers account</h2>
+<p>Taswira viewers are the intended consumers of the company's stories. They can be grouped as stakeholders or business users who are interested in the dashboards created. Viewers are invited by admin of their respective companies to view and export created stories.
+When invited, a viewer receives an email that prompts them to complete creation of an account with the system. This involves creating a strong password which can allow them to access taswira. Some of the privileges the creator has are as follows:</p>
+<ul>
+<li>View Dashboards/stories</li>
+<li>Export stories</li>
+<li>Download chart images, data or print</li>
+<li>Apply filters on the data</li>
+</ul>
+<p><strong><em>View Dashboards/stories</em></strong></p>
+<p>A viewer can open created stories within their department and view. This is accessed right after the viewer has logged in, all the stories in their department are enlisted.</p>
+<p><strong><em>Export stories</em></strong></p>
+<p>Viewers can export reports in form of an image. This is saved on the machine to be accessed later. to export a viewer has to click on one of the stories on the board then click the export story button at the top right corner of the board.</p>
+<p><strong><em>Chart Download &amp; Print</em></strong></p>
+<p>Once in an individual story, a viewer has the privilege to download a chart in form of an image (png, jpg, svg, pdf) or data. They can decide to print the image to a printer.
+These features can be accessed in an individual chart by clicking on a three dotted column at the top right corner of the chart then selecting the type of action from dropdown lists.</p>
+<p><strong><em>Apply filters on the data</em></strong></p>
+<p>A viewer can apply filter on a specific story with desired field options of the story data. This can be accessed from the top right menu of the board. a viewer clicks on the filter icon that gives them an option to select fields to filter on.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.1.2
+Build Date UTC : 2021-01-22 10:07:59.047117+00:00
+-->
